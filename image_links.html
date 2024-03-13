@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* Add your CSS styles here */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Here is an image related to technology:</p>
+        <a href="https://www.example.com/technology-page"><img src="tech.jpeg" alt="Technology"></a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.example.com/nature-page"><img src="nature1.jpeg" alt="Nature 1"></a>
+            <a href="https://www.example.com/nature-page"><img src="nature2.jpeg" alt="Nature 2"></a>
+            <a href="https://www.example.com/nature-page"><img src="nature3.jpeg" alt="Nature 3"></a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://www.example.com/food-page"><img src="pizza.jpeg" alt="Food 1"> Pizza</a></li>
+            <li><a href="https://www.example.com/food-page"><img src="burger.jpeg" alt="Food 2"> Burger</a></li>
+            <li><a href="https://www.example.com/food-page"><img src="pie.jpeg" alt="Food 3"> Pie</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+</body>
+</html>
